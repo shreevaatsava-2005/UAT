@@ -21,7 +21,9 @@
       <groupId>javax.servlet.jsp</groupId>
       <artifactId>jsp-api</artifactId>
       <version>2.1</version>
-      
+      <groupId>org.jacoco</groupId>
+       <artifactId>jacoco-maven-plugin</artifactId>
+      <version>0.8.6-SNAPSHOT</version>
       <scope>provided</scope>
     </dependency>
   </dependencies>
