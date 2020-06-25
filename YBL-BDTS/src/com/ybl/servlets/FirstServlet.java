@@ -30,6 +30,7 @@ public class FirstServlet extends HttpServlet {
                 int int2 = rand.nextInt(100);
 		out.println(HTML_START + "<h2>Hi There!</h2><br/><h3>Date="+date +"</h3>"+HTML_END);
 		out.println(HTML_START + "<h2> Some random number<h3>Number="+int1 +"</h3>"+HTML_END);
+		out.println(HTML_START + "<h2> Some random number<h3>Number="+int2 +"</h3>"+HTML_END);
 		System.out.println(int1);
 	}
 
