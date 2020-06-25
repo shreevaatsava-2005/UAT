@@ -24,7 +24,12 @@ public class FirstServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		PrintWriter out = response.getWriter();
 		Date date = new Date();
+                Random rand = new Random();
+                // Generating random integers in range 0 to 99
+                int int1 = rand.nextInt(100);
+                int int2 = rand.nextInt(100);
 		out.println(HTML_START + "<h2>Hi There!</h2><br/><h3>Date="+date +"</h3>"+HTML_END);
+		out.println(HTML_START + "<h2> Some random number<h3>Number="+int1 +"</h3>" +HTML_END);
 	}
 
 	/**
