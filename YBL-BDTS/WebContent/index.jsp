@@ -13,14 +13,6 @@
 <h3>Right Now, It is : <%= new Date() %></h3>
 
 
- <%
- String init1 = request.getParameter("init1"); 
- String init2 =request.getParameter("init2");
- Random rand= new rand(); 
- 
- %>
- Name:<%out.print(init1);%> 
- password:<% out.print(init2); %>
 
 </body>
 </html>
