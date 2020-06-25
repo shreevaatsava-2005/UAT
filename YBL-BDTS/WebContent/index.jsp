@@ -8,9 +8,9 @@
 <title>Welcome Page</title>
 </head>
 <body>
-<h2>Welcome to Simple Dynamic Web Application which display current date and time</h2>
+<h2>Welcome to Simple Dynamic Web Application which displays current date and time</h2>
 <br>
-<h3>Date=<%= new Date() %>
+<h3>Right Now it is <%= new Date() %>
 </h3>
 </body>
 </html>
