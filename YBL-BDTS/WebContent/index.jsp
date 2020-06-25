@@ -11,6 +11,5 @@
 <h2>Welcome to Simple Dynamic Web Application which displays current date and time</h2>
 <br>
 <h3>Right Now, It is : <%= new Date() %></h3>
-<h3>Random Number : <%= new rand() %>
 </body>
 </html>
